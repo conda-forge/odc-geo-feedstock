@@ -1,5 +1,5 @@
 {% set name = "odc-geo" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0ea6d605feda1933e8868cf29c540dd2a35edea440baf8fe4b24396ca141e181
+  sha256: 022ebd2f3728eeccd1e6811058d0be05ed9f0030f677b69cbf132085d3ceb8db
 
 build:
   number: 0
@@ -21,7 +21,7 @@ requirements:
   run:
     - python >=3.8
     - shapely
-    - pyproj
+    - pyproj >=3.0.0
     - affine
     - numpy
     - cachetools
