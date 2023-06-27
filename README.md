@@ -1,11 +1,11 @@
-About odc-geo
-=============
+About odc-geo-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/odc-geo-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/opendatacube/odc-geo/
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/odc-geo-feedstock/blob/main/LICENSE.txt)
 
 Summary: Geometry Classes and Operations (opendatacube)
 
