@@ -1,5 +1,5 @@
 {% set name = "odc-geo" %}
-{% set version = "0.4.9" %}
+{% set version = "0.4.9.post0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 2dfcf085b8baac5ca57977cca73e2e357b0c287a37b30d88191a1bc027c916bb
+  sha256: 1b7bf45ab5ba98b3c61478784f8744fc24153ccca31ae58ef8edc04c2b17f68a
 
 build:
   number: 0
