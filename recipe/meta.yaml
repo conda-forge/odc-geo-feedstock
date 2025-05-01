@@ -30,11 +30,12 @@ requirements:
     - xarray >=0.19
 
 test:
+  requires:
+    - python {{ python_min }}
+    - pip
   imports:
     - odc.geo
     - odc.geo.xr
-  requires:
-    - pip
   commands:
     - pip check
 
