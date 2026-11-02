@@ -1,5 +1,5 @@
 {% set name = "odc-geo" %}
-{% set version = "0.5.3" %}
+{% set version = "0.5.4" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 57aca2e894b8d8e82aa2e2f607630bb33e2b480f68077b52c273ff2b8367dfc7
+  sha256: 30fa6eee4d811053f90bc32e895d7356200e484668c46a5bfe4352225b34bead 
 
 build:
   number: 0
@@ -22,9 +22,9 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - shapely
+    - shapely >=2.1.0
     - pyproj >=3.0.0
-    - affine
+    - affine >=3.0.0
     - numpy
     - cachetools
     - xarray >=0.19
